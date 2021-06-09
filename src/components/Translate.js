@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import Convert from './Convert';
 import Dropdown from './Dropdown';
 
-// AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM
-
 const options = [
   {
     label: 'Afrikaans',
@@ -14,8 +12,28 @@ const options = [
     value: 'ar',
   },
   {
+    label: 'French',
+    value: 'fr',
+  },
+  {
+    label: 'Greek',
+    value: 'el',
+  },
+  {
     label: 'Hindi',
     value: 'hi',
+  },
+  {
+    label: 'Italian',
+    value: 'it',
+  },
+  {
+    label: 'Japanese',
+    value: 'ja',
+  },
+  {
+    label: 'Spanish',
+    value: 'es',
   },
 ];
 
